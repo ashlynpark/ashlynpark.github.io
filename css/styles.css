@@ -7378,7 +7378,7 @@ textarea.form-control-lg {
 }
 
 .mb-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .mb-auto {
@@ -7773,7 +7773,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #fff !important;
 }
 
 .text-black-50 {
@@ -11296,8 +11296,15 @@ html {
   background-color: #000 !important;
 }
 
-.bg-gradient-primary-to-secondary {
-  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+.bg-blue{
+  background: #bacbe6;
+}
+
+.bg-mountain{
+  background-image: url("../assets/img/mountain_road.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom 55%;
 }
 
 .font-alt {
