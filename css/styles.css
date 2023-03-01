@@ -7773,7 +7773,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #fff !important;
+  color: #6c757d !important;
 }
 
 .text-black-50 {
@@ -11298,6 +11298,13 @@ html {
 
 .bg-blue{
   background: #bacbe6;
+}
+
+.bg-clouds{
+  background-image: url("../assets/img/clouds-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(90%);
 }
 
 .bg-mountain{
