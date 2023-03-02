@@ -11370,6 +11370,8 @@ section {
 .device-wrapper {
   max-width: 300px;
   width: 100%;
+  align-items: center;
+  align-self: center;
 }
 
 .device {
