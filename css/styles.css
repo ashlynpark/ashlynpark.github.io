@@ -76,6 +76,30 @@
   }
 }
 
+.title-display {
+  font-size: calc(4rem + 4.5vw);
+  margin-bottom: 8%;
+  font-family: "Cantarell", sans-serif;
+  font-weight: 200;
+}
+@media (min-width: 1200px) {
+  .title-display {
+    font-size: 9rem;
+  }
+}
+
+.subtitle-display {
+  font-size: calc(1.2rem + 4.5vw);
+  margin-bottom: 8%;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+@media (min-width: 1200px) {
+  .subtitle-display {
+    font-size: 3rem;
+  }
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -497,7 +521,7 @@ progress {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
   line-height: 1.2;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Cantarell', sans-serif;
 }
 @media (min-width: 1200px) {
   .display-1 {
@@ -11566,35 +11590,7 @@ footer a:hover, footer a:active, footer a:focus {
   justify-content: center;
   position: relative;
 }
-.masthead .masthead-device-mockup .circle {
-  position: absolute;
-  fill: url(#circleGradient);
-  width: 70%;
-  display: none;
-}
-.masthead .masthead-device-mockup .circle .gradient-start-color {
-  stop-color: #2937f0;
-}
-.masthead .masthead-device-mockup .circle .gradient-end-color {
-  stop-color: #9f1ae2;
-}
-.masthead .masthead-device-mockup .shape-1 {
-  position: absolute;
-  height: 1rem;
-  width: 1rem;
-  transform: rotate(-10deg);
-  fill: #2937f0;
-  bottom: 15%;
-  left: 10%;
-}
-.masthead .masthead-device-mockup .shape-2 {
-  position: absolute;
-  height: 0.75rem;
-  width: 0.75rem;
-  fill: #2937f0;
-  top: 15%;
-  right: 10%;
-}
+
 .masthead .masthead-device-mockup .device-wrapper {
   max-width: 10rem;
 }
