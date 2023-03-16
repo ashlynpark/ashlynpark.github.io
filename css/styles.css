@@ -11440,13 +11440,25 @@ section {
   }
 }
 
+
+.diagram-container{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.diagram-container img{
+  width: 100%;
+  height: auto;
+}
+
+
 .profile-container{
   align-items: center;
   text-align: center;
   display: block;
 }
 .profile-container-photo{
-  align-items: center;
   text-align: center;
   display: flex;
   justify-content: center;
