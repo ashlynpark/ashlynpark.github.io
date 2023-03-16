@@ -10,6 +10,14 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ /*
+ Finger tap icon: <a href="https://www.flaticon.com/free-icons/tap" title="tap icons">Tap icons created by Freepik - Flaticon</a>
+
+ <a href="https://www.flaticon.com/free-icons/healing" title="healing icons">Healing icons created by Freepik - Flaticon</a>
+ <a href="https://www.flaticon.com/free-icons/journal" title="journal icons">Journal icons created by Freepik - Flaticon</a>
+ <a href="https://www.flaticon.com/free-icons/mood" title="mood icons">Mood icons created by Freepik - Flaticon</a>
+ <a href="https://www.flaticon.com/free-icons/analysis" title="analysis icons">Analysis icons created by Freepik - Flaticon</a>
+ */
 :root {
   --bs-blue: #2937f0;
   --bs-indigo: #6610f2;
@@ -11365,6 +11373,44 @@ section {
 .section-1 {
   padding-top: 3em;
   padding-bottom: 1em;
+}
+
+.section-2 {
+  padding-top: 1.2em;
+}
+
+.img-container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 30vh;
+}
+
+.img-container-right{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 10vh;
+}
+
+.feature-icon{
+  width: 100%; /* default width */
+  height: auto; /* preserve aspect ratio */
+
+  /* responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    width: 50%;
+  }
+}
+
+.feature-icon-right{
+  width: 80%; /* default width */
+  height: auto; /* preserve aspect ratio */
+
+  /* responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    width: 50%;
+  }
 }
 
 .app-badge {
