@@ -133,7 +133,7 @@ hr:not([size]) {
   height: 1px;
 }
 
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2{
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: "Inter", sans-serif;
@@ -142,6 +142,11 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Cantarell", sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
   font-size: calc(1.375rem + 1.5vw);
 }
 @media (min-width: 1200px) {
@@ -527,9 +532,8 @@ progress {
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.2;
-  font-family: 'Inter', sans-serif;
 }
 @media (min-width: 1200px) {
   .display-1 {
@@ -7884,10 +7888,11 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-white {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+.bg-grayish {
+  background-color: #e8e6ed;
 }
+
+
 
 .bg-body {
   --bs-bg-opacity: 1;
@@ -11433,6 +11438,46 @@ section {
   @media (max-width: 768px) {
     width: 50%;
   }
+}
+
+.profile-container{
+  align-items: center;
+  text-align: center;
+  display: block;
+}
+.profile-container-photo{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.profile-photo {
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+  margin-bottom: 2em;
+  overflow: hidden; /* hide the overflow of the image */
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-name {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.profile-description{
+  text-align: center;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 1.3em;
 }
 
 .app-badge {
