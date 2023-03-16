@@ -11346,6 +11346,13 @@ html {
   background-position: center bottom 55%;
 }
 
+.bg-mountain-2{
+  background-image: url("../assets/img/mountains2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom 50%;
+}
+
 .bg-journey{
   background-image: url("../assets/img/man_on_path.jpg");
   background-repeat: no-repeat;
@@ -11454,6 +11461,13 @@ section {
   width: 100%;
   align-items: center;
   align-self: center;
+}
+
+.device-wrapper-right {
+  max-width: 300px;
+  width: 100%;
+  align-items: right;
+  align-self: right;
 }
 
 .device {
