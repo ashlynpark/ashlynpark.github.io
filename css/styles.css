@@ -272,16 +272,22 @@ sup {
   top: -0.5em;
 }
 
+
+
 a {
-  color: #2937f0;
-  text-decoration: underline;
-}
-a:hover {
-  color: #212cc0;
+  color: var(--bs-gray-900);
+  text-decoration: none;
+  font-weight: bold;
 }
 
-a:not([href]):not([class]), a:not([href]):not([class]):hover {
-  color: inherit;
+/* Style the link on hover */
+a:hover {
+  color: var(--bs-gray-900);
+  text-decoration: underline;
+}
+
+a:visited{
+  color: var(--bs-gray-900);
   text-decoration: none;
 }
 
