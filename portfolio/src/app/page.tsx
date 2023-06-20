@@ -8,6 +8,10 @@ export default function Home() {
         <h1 className={styles.headerletter}>E</h1>
         <h1 className={styles.headertitle}>ll's info dot com</h1>
       </div>
+      <div className={styles.frontpagemenu}>
+        
+
+      </div>
     </main>
   )
 }
