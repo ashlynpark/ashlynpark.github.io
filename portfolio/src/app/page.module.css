@@ -244,7 +244,7 @@
 
 .headertitle{
   font-family: 'Maharlika';
-  font-size: 5em;
+  font-size: 4em;
   color: #F4EEDD;
   animation: glow 2s ease-in-out infinite alternate;
   margin-left: 0.3%;
@@ -252,7 +252,7 @@
 
 .headerletter{
   font-family: 'Alex Brush';
-  font-size: 10em;
+  font-size: 8em;
   color: #F4EEDD;
   animation: glow 2s ease-in-out infinite alternate;
   margin-top: -0.4em;
@@ -267,6 +267,11 @@
   animation: fadeIn 2.5s ease-in-out;
 }
 
+.frontpagemenu{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+}
 
 @keyframes fadeIn {
   from {
@@ -279,9 +284,9 @@
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px #F4EEDD, 0 0 20px #c6b88f;
+    text-shadow: 0 0 10px #F4EEDD, 0 0 20px #e0d5b5;
   }
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #a94d7b, 0 0 40px #a94d7b, 0 0 50px #a94d7b;
+    text-shadow: 0 0 20px #fff, 0 0 30px #ef83b7, 0 0 40px #ef83b7, 0 0 50px #ef83b7;
   }
 }
