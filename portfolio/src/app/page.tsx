@@ -5,13 +5,13 @@ import React from 'react';
 const Home = ()=> {
   return (
     <main className={styles.main} style={{ backgroundImage: `url("/bgimgsparkles.png")`, backgroundSize: 'cover', width: '100%', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
-      <Image className={styles.northstar} src={"/star.png"} alt="Star graphic"/>
+      <img className={styles.northstar} src={"/star.png"} alt="Star graphic"/>
       <div className={styles.headercontainer}>
         <h1 className={styles.headerletter}>E</h1>
         <h1 className={styles.headertitle}>
-          {"ll\'s info dot com"}
+          ll's info dot com
           <span className={styles.butterflying}>
-           <Image className={styles.butterfly} src={"butterfly.png"} alt="Butterfly graphic"/>
+           <img className={styles.butterfly} src={"butterfly.png"} alt="Butterfly graphic"/>
           </span>
         </h1>
       </div>
