@@ -1,10 +1,8 @@
 {
-  "homepage": "https://ashlynpark.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "deploy": "next build && next export && touch out/.nojekyll && gh-pages -d out",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

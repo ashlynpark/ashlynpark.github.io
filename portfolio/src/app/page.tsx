@@ -5,13 +5,13 @@ import React from 'react';
 const Home = ()=> {
   return (
     <main className={styles.main} style={{ backgroundImage: `url("/bgimgsparkles.png")`, backgroundSize: 'cover', width: '100%', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
-      <img className={styles.northstar} src={"/star.png"} alt="Star graphic"/>
+      <Image className={styles.northstar} src={"/star.png"} alt="Star graphic"/>
       <div className={styles.headercontainer}>
         <h1 className={styles.headerletter}>E</h1>
         <h1 className={styles.headertitle}>
           {"ll\'s info dot com"}
           <span className={styles.butterflying}>
-           <img className={styles.butterfly} src={"butterfly.png"} alt="Butterfly graphic"/>
+           <Image className={styles.butterfly} src={"butterfly.png"} alt="Butterfly graphic"/>
           </span>
         </h1>
       </div>
@@ -40,7 +40,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ id, image, name })=> {
     <div id={id} className={styles.unhhhh} style={{marginLeft: '4%', marginRight: '4%', alignContent: 'center', textAlign: 'center'}}>
       <div className={styles.outerglow}>
         <div className={styles.itemcontainer}>
-          <img src={image} alt={name} className={styles.circularitem}/>
+          <Image src={image} alt={name} className={styles.circularitem}/>
         </div>        
       </div>
 
