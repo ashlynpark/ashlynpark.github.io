@@ -9,7 +9,7 @@ const Home = ()=> {
       <div className={styles.headercontainer}>
         <h1 className={styles.headerletter}>E</h1>
         <h1 className={styles.headertitle}>
-          ll's info dot com
+          {"ll\'s info dot com"}
           <span className={styles.butterflying}>
            <img className={styles.butterfly} src={"butterfly.png"} alt="Butterfly graphic"/>
           </span>
