@@ -18,7 +18,7 @@ const Home = ()=> {
       <div className={styles.frontpagemenu}>
         <MenuItem id="about" image="about.png" name="about"/>
         <MenuItem id="projects" image="projects.png" name="projects"/>
-        <MenuItem id="contact" image="contact.png" name="contact"/>
+        <MenuItem id="contact" image="contact.png" name="build with me"/>
       </div>
       <div className={styles.subheadingcontainer}>
         <h2 className={styles.subheading}>developer + designer</h2>
