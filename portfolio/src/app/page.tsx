@@ -40,7 +40,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ id, image, name })=> {
     <div id={id} className={styles.unhhhh} style={{marginLeft: '4%', marginRight: '4%', alignContent: 'center', textAlign: 'center'}}>
       <div className={styles.outerglow}>
         <div className={styles.itemcontainer}>
-          <Image src={image} alt={name} className={styles.circularitem}/>
+          <img src={image} alt={name} className={styles.circularitem}/>
         </div>        
       </div>
 
