@@ -18,7 +18,7 @@ const Home = ()=> {
           </h1>
         </div>
         <div className={styles.frontpagemenu}>
-          <Link href="about">
+          <Link href="/about">
             <MenuItem id="about" image="about.png" name="about"/>
           </Link>
           <MenuItem id="projects" image="projects.png" name="projects"/>
