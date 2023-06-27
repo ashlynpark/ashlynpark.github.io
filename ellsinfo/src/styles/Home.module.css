@@ -250,29 +250,135 @@
 
 @font-face {
   font-family: 'Maharlika';
-  src: local('Maharlika'), url(fonts/Maharlika/Maharlika-Regular.ttf) format('truetype');
+  src: local('Maharlika'), url(../fonts/Maharlika/Maharlika-Regular.ttf) format('truetype');
 }
 
 @font-face{
   font-family: 'Alex Brush';
-  src: local('Alex_Brush'), url(fonts/Alex_Brush/AlexBrush-Regular.ttf) format('truetype');
+  src: local('Alex_Brush'), url(../fonts/Alex_Brush/AlexBrush-Regular.ttf) format('truetype');
 }
 
 @font-face{
   font-family: 'RetroPix';
-  src: local('Retropix'), url(fonts/Retropix/retropix.ttf) format('truetype');
+  src: local('Retropix'), url(../fonts/Retropix/retropix.ttf) format('truetype');
 }
 
 @font-face{
   font-family: 'Silkscreen Reg';
-  src: local('Silkscreen'), url(fonts/Silkscreen/Silkscreen-Regular.ttf) format('truetype');
+  src: local('Silkscreen'), url(../fonts/Silkscreen/Silkscreen-Regular.ttf) format('truetype');
 }
 
 @font-face{
   font-family: 'Silkscreen Bold';
-  src: local('Silkscreen'), url(fonts/Silkscreen/Silkscreen-Bold.ttf) format('truetype');
+  src: local('Silkscreen'), url(../fonts/Silkscreen/Silkscreen-Bold.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Titillium Web';
+  src: local('Titillium_Web'), url(../fonts/Titillium_Web/TitilliumWeb-ExtraLight.ttf) format('truetype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: local('Titillium_Web'), url(../fonts/Titillium_Web/TitilliumWeb-Light.ttf) format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: local('Titillium_Web'), url(../fonts/Titillium_Web/TitilliumWeb-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: local('Titillium_Web'), url(../fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf) format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: local('Titillium_Web'), url(../fonts/Titillium_Web/TitilliumWeb-Bold.ttf) format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: local('Titillium_Web'), url(../fonts/Titillium_Web/TitilliumWeb-ExtraLightItalic.ttf) format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: local('Titillium_Web'), url(../fonts/Titillium_Web/TitilliumWeb-LightItalic.ttf) format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: local('Titillium_Web'), url(../fonts/Titillium_Web/TitilliumWeb-Italic.ttf) format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: local('Titillium_Web'), url(../fonts/Titillium_Web/TitilliumWeb-SemiBoldItalic.ttf) format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: local('Titillium_Web'), url(../fonts/Titillium_Web/TitilliumWeb-BoldItalic.ttf) format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face{
+  font-family: 'PT Sans';
+  src: local('PT_Sans'), url(../fonts/PT_Sans/PTSans-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: local('PT_Sans'), url(../fonts/PT_Sans/PTSans-Bold.ttf) format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: local('PT_Sans'), url(../fonts/PT_Sans/PTSans-Italic.ttf) format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: local('PT_Sans'), url(../fonts/PT_Sans/PTSans-BoldItalic.ttf) format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PT Sans Caption';
+  src: local('PT_Sans_Caption'), url(../fonts/PT_Sans_Caption/PTSansCaption-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PT Sans Caption Bold';
+  src: local('PT_Sans_Caption'), url(../fonts/PT_Sans_Caption/PTSansCaption-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+  font-weight: 100 900; /* Specify the font weight range */
+}
 
 .northstar{
   height: 7em;
@@ -459,4 +565,116 @@
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px rgba(255, 148, 179, 0.7), 0 0 40px rgba(255, 148, 179, 0.7), 0 0 50px rgba(255, 148, 179, 0.7);
   }
+}
+
+
+
+.pageletter{
+  font-family: 'Alex Brush';
+  font-size: 6em;
+  color: rgb(215, 245, 206);
+  text-shadow: 0 0 15px rgba(233, 253, 226, 0.5);
+  text-align: center;
+  margin-top: 0.2em;
+}
+
+.pagetitle{
+  font-family: 'Maharlika';
+  font-size: 3em;
+  color: rgb(215, 245, 206);
+  text-align: center;
+  align-self: center;
+  text-shadow: 0 0 15px rgba(233, 253, 226, 0.5);
+  margin-left: 0.02em;
+  position: relative;
+  margin-top: 0.5em;
+}
+
+.titlecontainer{
+  background-image: url('../../public/cloud-bg.png');
+  background-size: cover;
+  background-position: center;
+  animation: fadeIn 1.0s ease-in-out;
+  flex: 1;
+  height: '100%'
+}
+
+.titlecontainerdark{
+  flex-direction: row;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-top: 0;
+}
+
+.subtitle{
+  font-family: 'Maharlika';
+  font-size: 36pt;
+  color: #faf9f5;
+}
+
+.subtitle2{
+  font-family: 'Maharlika';
+  font-size: 1.6em;
+  color: #faf9f5;
+}
+
+.bodytext{
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 1.3em;
+  line-height: 2em;
+  color: #19321b;
+}
+
+.desc{
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 1.3em;
+  color: #faf9f5;
+  line-height: 1.7em;
+}
+
+.smallpiccontainer{
+  width: 20%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-right: 5%;
+  flex: 1;
+}
+
+.smallpic{
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .smallpiccontainer {
+    min-width: '40%';
+  }
+}
+
+/* NAVBAR STYLING */
+.prettynav{
+  background-color:#f7f0f3; 
+  justify-content: center;
+  position: relative;
+}
+
+.brandName{
+  font-family: 'Maharlika';
+  font-size: 1.5em;
+  color: rgb(126, 156, 116);
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.navItem{
+  font-family: 'Silkscreen Reg';
+  font-size: 1.2em;
 }
