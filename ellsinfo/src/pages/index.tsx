@@ -27,11 +27,15 @@ const Home = () => {
           </h1>
         </div>
         <div className={styles.frontpagemenu}>
-          <Link href="/about" style={{textDecoration: 'none'}}>
+          <Link href="/about" style={{textDecoration: 'none', marginLeft: '4%', marginRight: '4%', alignContent: 'center', textAlign: 'center'}}>
             <MenuItem id="about" image="about.png" name="about"/>
           </Link>
-          <MenuItem id="projects" image="projects.png" name="projects"/>
-          <MenuItem id="contact" image="contact.png" name="build with me"/>
+          <Link href="/" style={{textDecoration: 'none', marginLeft: '4%', marginRight: '4%', alignContent: 'center', textAlign: 'center'}}>
+            <MenuItem id="projects" image="projects.png" name="projects"/>
+          </Link>
+          <Link href="/'" style={{textDecoration: 'none', marginLeft: '4%', marginRight: '4%', alignContent: 'center', textAlign: 'center'}}>
+            <MenuItem id="contact" image="contact.png" name="build with me"/>
+          </Link>
         </div>
         <div className={styles.subheadingcontainer}>
           <h2 className={styles.subheading}>developer + designer</h2>

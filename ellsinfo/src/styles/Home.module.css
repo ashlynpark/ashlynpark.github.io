@@ -586,17 +586,21 @@
   align-self: center;
   text-shadow: 0 0 15px rgba(233, 253, 226, 0.5);
   margin-left: 0.02em;
-  position: relative;
   margin-top: 0.5em;
 }
 
-.titlecontainer{
+.abouttitlecontainer{
   background-image: url('../../public/cloud-bg.png');
   background-size: cover;
   background-position: center;
   animation: fadeIn 1.0s ease-in-out;
-  flex: 1;
-  height: '100%'
+}
+
+.projectstitlecontainer{
+  background-image: url('../../public/greenpinkwater.jpg');
+  background-size: cover;
+  background-position: center;
+  animation: fadeIn 1.0s ease-in-out;
 }
 
 .titlecontainerdark{
@@ -614,6 +618,17 @@
   font-family: 'Maharlika';
   font-size: 36pt;
   color: #faf9f5;
+}
+
+.rowcontainer{
+  margin-bottom: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .subtitle2{
@@ -638,23 +653,100 @@
   line-height: 1.7em;
 }
 
-.smallpiccontainer{
-  width: 20%;
-  height: auto;
-  overflow: hidden;
-  border-radius: 10px;
-  margin-right: 5%;
-  flex: 1;
-}
 
 .smallpic{
   width: 100%;
   height: auto;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
-@media (min-width: 768px) {
-  .smallpiccontainer {
-    min-width: '40%';
+.textcontainer{
+  padding: 4.5em;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #faf9f5;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 650px) {
+  .subtitle{
+    font-family: 'Maharlika';
+    font-size: 20pt;
+    color: #faf9f5;
+  }
+  .subtitle2{
+    font-family: 'Maharlika';
+    font-size: 14pt;
+    color: #faf9f5;
+  }
+  .rowcontainer{
+    margin-bottom: 5%;
+    margin-right: 3%;
+    margin-left: 3%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .desc{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 12pt;
+    color: #faf9f5;
+  }
+
+  .bodytext{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 12pt;
+    line-height: 1.7em;
+    color: #19321b;
+  }
+
+  .textcontainer{
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #faf9f5;
+    border-radius: 10px;
+    margin-bottom: 5%;
+  }
+
+}
+@media (min-width: 651px) and (max-width: 1120px) {
+  .subtitle{
+    font-family: 'Maharlika';
+    font-size: 32pt;
+    color: #faf9f5;
+  }
+  .subtitle2{
+    font-family: 'Maharlika';
+    font-size: 18pt;
+    color: #faf9f5;
+  }
+  .desc{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 15pt;
+    color: #faf9f5;
+  }
+
+  .bodytext{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 14pt;
+    line-height: 2em;
+    color: #19321b;
+  }
+
+  .textcontainer{
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #faf9f5;
+    border-radius: 10px;
+    margin-bottom: 5%;
   }
 }
 
@@ -664,6 +756,7 @@
   justify-content: center;
   position: relative;
 }
+
 
 .brandName{
   font-family: 'Maharlika';

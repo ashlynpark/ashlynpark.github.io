@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '@/styles/Home.module.css';
+import { Row, Col } from 'react-bootstrap';
 
 
 
@@ -15,7 +16,7 @@ const Navvy = (props:{selected:string}) => {
   const build = props.selected === 'build';
 
   return (
-    <nav>
+    <nav style={{paddingBottom: '60px'}}>
       
       <Navbar expand='md' style={{paddingTop: 0, paddingBottom: 0, width: '100%', position: 'fixed'}}>
         <Container fluid className={styles.prettynav}>
@@ -23,22 +24,28 @@ const Navvy = (props:{selected:string}) => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" style={{marginLeft: 'auto'}}>
             <Nav style={{marginLeft: 'auto', marginRight: '5%'}}>
-              
               <Nav.Link active={about} className={styles.navItem} style={about ? { color: 'rgb(126, 156, 116)', marginRight: '4%', fontWeight: '500', fontSize: '1.5em' } : {marginRight:'4%', fontWeight: '500', fontSize: '1.5em' }} href="/about">About</Nav.Link>
-              
-              <NavDropdown active={projects} title={<span className={styles.navItem} style={projects ? {  color: 'rgb(126, 156, 116)', fontWeight: '500', fontSize: '1.5em' } : {fontWeight: '500', fontSize: '1.5em' }} >Projects</span>} id="basic-nav-dropdown">
-                <NavDropdown.Item  href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
+              <Row style={{width: '180px', marginRight: '5%'}}>
+                <Col sm={10}>
+                  <Nav.Link active={projects} href='/projects' >{<span className={styles.navItem} style={projects ? {  color: 'rgb(126, 156, 116)', fontWeight: '500', fontSize: '1.5em' } : {fontWeight: '500', fontSize: '1.5em' }} >Projects</span>} </Nav.Link>
+                </Col>
+                <Col sm={2}>
+                  <NavDropdown active={projects} title='' id="basic-nav-dropdown" style={{marginTop: '5px', fontSize: 20}}>
+                  <NavDropdown.Item  href="#action/3.1" >Project 1</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.2">
+                    Project 2
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Project 3</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="/projects">
+                    View All
+                  </NavDropdown.Item>
+                  </NavDropdown>
+                </Col>
+              </Row>
 
-              <Nav.Link active={build} className={styles.navItem} style={build ? { width: 'auto', color: 'rgb(126, 156, 116)', marginLeft: '4%', fontWeight: '500', fontSize: '1.5em', whiteSpace: 'nowrap'} : {  whiteSpace: 'nowrap', width: 'auto', marginLeft: '4%', fontWeight: '500', fontSize: '1.5em' }}  href="/build-with-me">Build With Me</Nav.Link>
+
+              <Nav.Link active={build} className={styles.navItem} style={build ? { width: 'auto', color: 'rgb(126, 156, 116)',fontWeight: '500', fontSize: '1.5em', whiteSpace: 'nowrap'} : {  whiteSpace: 'nowrap', width: 'auto', fontWeight: '500', fontSize: '1.5em' }}  href="/build-with-me">Build With Me</Nav.Link>
             
             </Nav>
           </Navbar.Collapse>
