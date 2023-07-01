@@ -589,6 +589,28 @@
   margin-top: 0.5em;
 }
 
+
+.pageletter2{
+  font-family: 'Alex Brush';
+  font-size: 6em;
+  color: rgb(251, 216, 234);
+  text-shadow: 0 0 20px rgba(253, 226, 229, 0.5);
+  text-align: center;
+  margin-top: 0.2em;
+}
+
+.pagetitle2{
+  font-family: 'Maharlika';
+  font-size: 3em;
+  color: rgb(251, 216, 234);
+  text-align: center;
+  align-self: center;
+  text-shadow: 0 0 20px rgba(253, 226, 229, 0.5);
+  margin-left: 0.02em;
+  margin-top: 0.5em;
+}
+
+
 .abouttitlecontainer{
   background-image: url('../../public/cloud-bg.png');
   background-size: cover;
@@ -622,10 +644,10 @@
 
 .rowcontainer{
   margin-bottom: 5%;
-  margin-right: 10%;
-  margin-left: 10%;
-  padding-right: 10%;
-  padding-left: 10%;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-right: 15%;
+  padding-left: 15%;
   align-content: center;
   align-items: center;
   justify-content: center;
@@ -663,8 +685,8 @@
 
 .textcontainer{
   padding: 4.5em;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   background-color: #faf9f5;
   border-radius: 10px;
   margin-bottom: 5%;
@@ -683,8 +705,8 @@
   }
   .rowcontainer{
     margin-bottom: 5%;
-    margin-right: 3%;
-    margin-left: 3%;
+    margin-right: 4%;
+    margin-left: 4%;
     align-content: center;
     align-items: center;
     justify-content: center;
@@ -692,14 +714,14 @@
   .desc{
     font-family: 'Inter';
     font-weight: 300;
-    font-size: 12pt;
+    font-size: 14pt;
     color: #faf9f5;
   }
 
   .bodytext{
     font-family: 'Inter';
     font-weight: 300;
-    font-size: 12pt;
+    font-size: 14pt;
     line-height: 1.7em;
     color: #19321b;
   }
@@ -742,8 +764,8 @@
 
   .textcontainer{
     padding: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: #faf9f5;
     border-radius: 10px;
     margin-bottom: 5%;

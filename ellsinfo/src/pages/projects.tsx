@@ -10,8 +10,16 @@ const Projects = () => {
     return(
         <>
             <Navvy selected='projects'/>
-            <div className={styles.main} style={{backgroundColor: '#7e9c74'}}>
+            <div className={styles.main} style={{backgroundColor: '#416154'}}>
                 <Container fluid className={styles.projectstitlecontainer}>
+                    <div className={styles.titlecontainerdark}>
+                        <h1 className={styles.pageletter2}>P</h1>
+                        <h1 className={styles.pagetitle2}>
+                            rojects
+                        </h1>                  
+                    </div>
+                </Container>
+                <Container fluid>
 
                 </Container>
             </div>
