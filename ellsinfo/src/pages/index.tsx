@@ -55,7 +55,7 @@ interface MenuItemProps {
 const MenuItem: React.FC<MenuItemProps> = ({ id, image, name })=> {
   
   return(
-    <div id={id} className={styles.unhhhh} style={{marginLeft: '4%', marginRight: '4%', alignContent: 'center', textAlign: 'center'}}>
+    <div id={id} className={styles.unhhhh} style={{alignContent: 'center', textAlign: 'center'}}>
       <div className={styles.outerglow}>
         <div className={styles.itemcontainer}>
           <img src={image} alt={name} className={styles.circularitem}/>

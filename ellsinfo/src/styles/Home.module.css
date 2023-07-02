@@ -461,7 +461,7 @@
 
 .menutitle{
   font-family: 'Silkscreen Reg';
-  font-size: 32px;
+  font-size: 30px;
   color: #f5f3ec;
   margin-top: 2%;
   text-shadow: 0 0 10px #f5f3ec;
@@ -625,6 +625,21 @@
   animation: fadeIn 1.0s ease-in-out;
 }
 
+.projectmenu{
+  background-color: #f7f0f3; 
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.projectmenutext{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #19321b;
+}
+
+
 .titlecontainerdark{
   flex-direction: row;
   display: flex;
@@ -644,10 +659,10 @@
 
 .rowcontainer{
   margin-bottom: 5%;
-  margin-right: 15%;
-  margin-left: 15%;
-  /* padding-right: 15%;
-  padding-left: 15%; */
+  /* margin-right: 15%;
+  margin-left: 15%; */
+  padding-right: 15%;
+  padding-left: 15%;
   align-content: center;
   align-items: center;
   justify-content: center;
@@ -691,6 +706,7 @@
   border-radius: 10px;
   margin-bottom: 5%;
 }
+
 
 @media (max-width: 650px) {
   .subtitle{
