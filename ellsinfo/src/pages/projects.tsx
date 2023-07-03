@@ -138,7 +138,7 @@ const Projects = () => {
                                 {projects.map((item, index) => {
                                     return(
                                         <Col sm={12} lg={6}>
-                                            <ProjectCard title={item.title} skills={item.skills} date={item.date} img={item.img} url={item.url} tags={item.tags} description={item.description}/>
+                                            <ProjectCard key={index} title={item.title} skills={item.skills} date={item.date} img={item.img} url={item.url} tags={item.tags} description={item.description}/>
                                         </Col>
                                     )
                                 })}
