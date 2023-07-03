@@ -15,7 +15,7 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main} style={{ backgroundImage: `url("/bgimgsparkles.png")`, backgroundSize: 'cover', width: '100%', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+      <main className={styles.main} style={{ backgroundImage: `url("/bgimgsparkles.png")`, backgroundSize: 'cover', width: '100%', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundColor: '#A86276'}}>
         <img className={styles.northstar} src={"/star.png"} alt="Star graphic"/>
         <div className={styles.headercontainer}>
           <h1 className={styles.headerletter}>E</h1>

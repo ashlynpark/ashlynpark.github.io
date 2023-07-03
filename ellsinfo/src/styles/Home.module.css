@@ -602,7 +602,7 @@
 .pagetitle2{
   font-family: 'Maharlika';
   font-size: 3em;
-  color: rgb(251, 216, 234);
+  color: #ffe3f9;
   text-align: center;
   align-self: center;
   text-shadow: 0 0 20px rgba(253, 226, 229, 0.5);
@@ -612,31 +612,54 @@
 
 
 .abouttitlecontainer{
-  background-image: url('../../public/cloud-bg.png');
+  background-image: url('/cloud-bg.png');
   background-size: cover;
   background-position: center;
   animation: fadeIn 1.0s ease-in-out;
 }
 
 .projectstitlecontainer{
-  background-image: url('../../public/greenpinkwater.jpg');
+  background-image: url('/greenpinkwater.jpg');
   background-size: cover;
   background-position: center;
   animation: fadeIn 1.0s ease-in-out;
 }
 
-.projectmenu{
-  background-color: #f7f0f3; 
+.projsubtitle{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 1.2em;
+  margin-top: 1.2em;
+  padding: 1.2em;
+  /* background-color: rgba(0, 0, 0, 0.3); */
   border-radius: 10px;
-  padding: 15px;
 }
 
-.projectmenutext{
+.projbodytext{
   font-family: 'Inter';
-  font-weight: 400;
-  font-size: 1em;
+  font-weight: 200;
+  font-size: 1.3em;
   line-height: 1.5em;
-  color: #19321b;
+  color: #ffe3f9;
+  text-align: center;
+}
+
+.projmenu{
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: rgb(255, 245, 225);
+  margin: 2%;
+  border-radius: 10px;
+  padding: 2%;
+  align-items: center;
+  align-content: center;
+}
+
+.projmenutitle{
+  font-family: 'Silkscreen Reg';
+  font-size: 14pt;
+  color: #416154;
+  text-align: center;
 }
 
 
@@ -707,6 +730,50 @@
   margin-bottom: 5%;
 }
 
+.projimgcontainer{
+  max-width: 25em;
+  max-height: 15em;
+  overflow: hidden;
+  aspect-ratio: calc(2);
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.projimg{
+  max-width: 25em;
+  height: auto;
+
+}
+
+.projcard{
+  margin-bottom: 7%;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  flex: 1;
+}
+
+.projecttitle{
+  font-family: 'Inter';
+  font-size: 1.5em;
+  color: rgb(3, 71, 63);
+}
+
+.projectskills{
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 1em;
+  color: rgb(3, 71, 63);
+}
+
+.projectdescription{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #5f5259;
+}
 
 @media (max-width: 650px) {
   .subtitle{
@@ -751,6 +818,25 @@
     margin-bottom: 5%;
   }
 
+  .projsubtitle{
+    /* background-color: #f7f0f3;  */
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1em;
+    margin-top: 1.2em;
+    padding: 1.2em;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    border-radius: 10px;
+  }
+  .projbodytext{
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #ffe3f9;
+    text-align: center;
+  }
+  
 }
 @media (min-width: 651px) and (max-width: 1120px) {
   .subtitle{
@@ -785,6 +871,17 @@
     background-color: #faf9f5;
     border-radius: 10px;
     margin-bottom: 5%;
+  }
+
+  .projsubtitle{
+    /* background-color: #f7f0f3;  */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1.2em;
+    margin-top: 1.2em;
+    padding: 1.2em;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    border-radius: 10px;
   }
 }
 
