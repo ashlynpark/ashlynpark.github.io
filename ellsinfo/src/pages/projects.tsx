@@ -137,7 +137,7 @@ const Projects = () => {
                             <Row style={{marginLeft: '1%', marginRight: '3%'}}>
                                 {projects.map((item, index) => {
                                     return(
-                                        <Col sm={12} lg={6}>
+                                        <Col key={index}  sm={12} lg={6}>
                                             <ProjectCard key={index} title={item.title} skills={item.skills} date={item.date} img={item.img} url={item.url} tags={item.tags} description={item.description}/>
                                         </Col>
                                     )
@@ -169,7 +169,7 @@ const ProjectCard : React.FC<Project>  = ({title, skills, date, img, url, tags, 
                     <h2 className={styles.projectskills}>{skills}</h2>
                     <p className={styles.projectdescription}>{description}</p>
                     <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap'}}>
-                        {tags.map((item) => {return <Tag text={item}/>})}
+                        {tags.map((item, index) => {return <Tag key={index} text={item}/>})}
                     </div>
                 </div>
             </div>
