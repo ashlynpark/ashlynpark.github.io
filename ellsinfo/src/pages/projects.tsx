@@ -30,7 +30,7 @@ let p : Project[] = [
         img: '/odysseyapppages.png',
         tags: ['backend', 'frontend', 'development', 'mobile', 'UX design', 'fullstack'],
         description: "A cross-platform mobile app dedicated to helping digital nomads plan their next adventure.",
-        url: '/'
+        url: '/projects/odyssey'
     },
     {   
         title: 'AntMarket',
@@ -160,7 +160,7 @@ const Projects = () => {
                     </div>
                 </Container>
                 
-                <Container fluid>
+                <Container fluid >
                     <div className={styles.projsubtitle}>
                         <p className={styles.projbodytext}>
                         {"Thanks for checking out my portfolio! Below are some of the software engineering and informatics projects I've completed during my studies at UC Irvine, hackathons, and professional career. "}
@@ -169,16 +169,17 @@ const Projects = () => {
                     <Row>
                         <Col xs={2} sm={3}  md={2}>
                             {/* FILTERING MENU */}
-                            <div style={{position: 'fixed', display: 'flex', justifyContent: 'center', alignSelf: 'center'}}>
-                                {/* Menu toggle button */}
-                                <button onClick={() => setMenuOpen(!menuOpen)} style={{display: windowWidth > threshold || typeof window === 'undefined' ? 'none' : 'block'}} className={styles.projmenubutton}>
-                                        {menuOpen ? <FontAwesomeIcon icon={faX} style={{height: 'auto', width: '1em', color: '#416154', alignSelf: 'center'}}/> : <FontAwesomeIcon icon={faBarsStaggered} style={{height: 'auto', width: '1.5em', color: '#416154', alignSelf: 'center'}}/> }
-                                    </button>
-                                <div className={styles.projmenu} style={{display: menuOpen || windowWidth > threshold ? 'block' : 'none'}}>
-                                    <h2 className={styles.projmenutitle}>Filter</h2>
-                                </div>
+                                <div style={{display: 'flex',justifyContent: 'center', alignSelf: 'center'}}>
+                                    {/* Menu toggle button */}
+                                    <button onClick={() => setMenuOpen(!menuOpen)} style={{display: windowWidth > threshold || typeof window === 'undefined' ? 'none' : 'block'}} className={styles.projmenubutton}>
+                                            {menuOpen ? <FontAwesomeIcon icon={faX} style={{height: 'auto', width: '1em', color: '#416154', alignSelf: 'center'}}/> : <FontAwesomeIcon icon={faBarsStaggered} style={{height: 'auto', width: '1.5em', color: '#416154', alignSelf: 'center'}}/> }
+                                        </button>
+                                    <div className={styles.projmenu} style={{display: menuOpen || windowWidth > threshold ? 'block' : 'none'}}>
+                                        <h2 className={styles.projmenutitle}>Filter</h2>
+                                    </div>
 
-                            </div>
+                                </div>                                
+
                         </Col>
 
                         <Col xs={10} sm={9} md={10}>

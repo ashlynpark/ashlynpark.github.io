@@ -653,7 +653,7 @@
   align-items: center;
   align-content: center;
   width: 15vw;
-  /* min-width: 10em; */
+  min-width: 9.5em;
 }
 
 .projmenutitle{
@@ -670,6 +670,11 @@
   width: 3em;
   height: 3em;
   background-color: #ebd1dc;
+}
+
+.projmenucontainer {
+  height: 500px; /* Set a height for the container */
+  overflow: auto; /* Enable scrolling within the container */
 }
 
 .titlecontainerdark{
