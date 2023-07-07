@@ -33,7 +33,7 @@ const Home = () => {
           <Link href="/projects" style={{textDecoration: 'none', marginLeft: '4%', marginRight: '4%', alignContent: 'center', textAlign: 'center'}}>
             <MenuItem id="projects" image="projects.png" name="projects"/>
           </Link>
-          <Link href="/" style={{textDecoration: 'none', marginLeft: '4%', marginRight: '4%', alignContent: 'center', textAlign: 'center'}}>
+          <Link href="/buildwithme" style={{textDecoration: 'none', marginLeft: '4%', marginRight: '4%', alignContent: 'center', textAlign: 'center'}}>
             <MenuItem id="contact" image="contact.png" name="build with me"/>
           </Link>
         </div>

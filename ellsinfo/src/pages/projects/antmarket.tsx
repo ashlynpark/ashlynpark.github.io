@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const projStyle = {
     titleContainer: {
-        backgroundImage: "url('/odyssey-plane.jpg')",
+        backgroundImage: "url('/uciaerial.jpeg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
     },
@@ -16,7 +16,7 @@ const projStyle = {
         alignSelf: 'center',
         width: '110%',
         marginLeft: '-1em',
-        backgroundColor: "rgba(0, 0, 0, 0.5)",
+        backgroundColor: "rgba(0, 0, 0, 0.7)",
         paddingLeft: '5%',
         paddingBottom: '2%',
         paddingTop: '8%',
@@ -24,7 +24,7 @@ const projStyle = {
     titleText: {
         fontFamily: 'Maharlika',
         fontSize: '4.5em',
-        color: '#daebea',
+        color: '#deebda',
         textShadow: "0 0 15px rgba(218, 240, 238, 0.5)",
         marginRight: '10%',
     },
@@ -32,7 +32,7 @@ const projStyle = {
         fontFamily: 'Inter',
         fontWeight: '200',
         fontSize: '2em',
-        color: '#daebea',
+        color: '#deebda',
         marginLeft: '1%',
         marginRight: '10%'
     },
@@ -40,7 +40,7 @@ const projStyle = {
         fontFamily: 'Inter',
         fontWeight: '200',
         fontSize: '1.2em',
-        color: '#daebea',
+        color: '#deebda',
         marginLeft: '1%',
         marginRight: '10%'
     },
@@ -63,7 +63,7 @@ const projStyle = {
         transform: 'rotate(25deg)'
     },
     sectionTextContainer:{
-        backgroundColor: '#e1ebea',
+        backgroundColor: '#e2ebe1',
         marginTop: '5%',
         padding: '5%',
         borderRadius: '15px',
@@ -129,25 +129,25 @@ const projStyle = {
 
 };
 
-const OdysseyProject = () => {
+const AntMarketProject = () => {
     return(
         <>
             <Navvy selected=''/>
-            <div className={styles.main} style={{backgroundColor:'#2C4850', justifyContent: 'normal'}}>
+            <div className={styles.main} style={{backgroundColor:'#203d2e', justifyContent: 'normal'}}>
                 <Container fluid style={projStyle.titleContainer}>
                     <Row style={projStyle.titleTextContainer}>
                         <Col md={12}>
                             <h1 style={projStyle.titleText}>
-                                Odyssey
+                                AntMarket
                             </h1>
                             <h2 style={projStyle.subTitleText}>
-                                {"A cross-platform mobile app dedicated to helping digital nomads plan their next adventure."}
+                                {"A mobile app for UCI students to easily sell, give away, and purchase items."}
                            </h2>
                            <h2 style={projStyle.subTitleText2}>
-                                <b style={{fontFamily: 'Inter', fontWeight: 500}}>Roles: Frontend Developer, Backend Developer, UX Designer, Technical Writer</b>
+                                <b style={{fontFamily: 'Inter', fontWeight: 500}}>Roles: Frontend Developer, UX Designer, Technical Writer</b>
                            </h2>
                            <h2 style={projStyle.subTitleText2}>
-                                {"January 2023 to June 2023"}
+                                {"April 2023 to June 2023"}
                            </h2>
                         </Col>
                                         
@@ -161,7 +161,7 @@ const OdysseyProject = () => {
                                 Overview
                             </h1>
                             <p style={projStyle.regText2}>
-                             {"Odyssey was developed as a 5-month long senior capstone project by a team of 5 students with founders Ari Witt and Zach Little. The app revolutionizes travel planning for remote work-from-anywhere travelers by empowering users to effortlessly craft their entire trip itinerary by seamlessly booking flights, accommodations, and activities tailored to their personal preferences. What sets Odyssey apart is its unique functionality that generates a fully planned itinerary based on individual preferences, eliminating the hassle of piecing together travel arrangements. With the mission to inspire more people to explore the world and experience something bigger than themselves, Odyssey invites users to embark on memorable journeys with ease and confidence."}
+                             {"AntMarket was conceptualized to be a mobile college student marketplace to sell or give away furniture and various supplies. In particular, the team wanted to develop a mobile application with the React Native framework that will serve as a UCI student resource. The purpose of this project is to solve the issue that many moving (in and out) students face when they want to get items for less or want to get rid of belongings they don’t want to keep."}
 
                             </p>
                         </Col>
@@ -172,7 +172,7 @@ const OdysseyProject = () => {
                                 Problem
                             </h1>
                             <p style={projStyle.regText2}>
-                                {"Travel planning is a hectic and time-consuming process. Often people don’t know how to plan a trip or where to start and most existing travel tools are built for travelers, not remote workers."}
+                                {"Looking at the UCI population, many students relocate to the UCI community temporarily for their education. When moving into the area, these students tend to need various furniture and supplies for both their temporary housing and schooling. When moving out, these students tend to have their UCI furniture and supplies that they may not want to bring back with them to their homes. Currently, students moving in and out of the area are going to online forums such as Reddit and Facebook Marketplace to buy and sell their belongings, and that’s where we see an opportunity."}
                             </p>
                         </Col>
                         <Col sm={12} md={6}>
@@ -250,4 +250,4 @@ const OdysseyProject = () => {
     )
 }
 
-export default OdysseyProject;
+export default AntMarketProject;

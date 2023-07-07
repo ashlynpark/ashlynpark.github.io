@@ -31,10 +31,8 @@ const Navvy = (props:{selected:string}) => {
                 </Col>
                 <Col sm={2}>
                   <NavDropdown active={projects} title='' id="basic-nav-dropdown" style={{marginTop: '5px', fontSize: 20}}>
-                  <NavDropdown.Item  href="#action/3.1" >Project 1</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
-                    Project 2
-                  </NavDropdown.Item>
+                  <NavDropdown.Item  href="/projects/odyssey" >Odyssey</NavDropdown.Item>
+                  <NavDropdown.Item href="/projects/antmarket">AntMarket</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.3">Project 3</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="/projects">
@@ -45,7 +43,7 @@ const Navvy = (props:{selected:string}) => {
               </Row>
 
 
-              <Nav.Link active={build} className={styles.navItem} style={build ? { width: 'auto', color: 'rgb(126, 156, 116)',fontWeight: '500', fontSize: '1.5em', whiteSpace: 'nowrap'} : {  whiteSpace: 'nowrap', width: 'auto', fontWeight: '500', fontSize: '1.5em' }}  href="/build-with-me">Build With Me</Nav.Link>
+              <Nav.Link active={build} className={styles.navItem} style={build ? { width: 'auto', color: 'rgb(126, 156, 116)',fontWeight: '500', fontSize: '1.5em', whiteSpace: 'nowrap'} : {  whiteSpace: 'nowrap', width: 'auto', fontWeight: '500', fontSize: '1.5em' }}  href="/buildwithme">Build With Me</Nav.Link>
             
             </Nav>
           </Navbar.Collapse>

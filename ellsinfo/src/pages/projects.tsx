@@ -39,7 +39,7 @@ let p : Project[] = [
         img: '/antmarketheader.png',
         tags: ['frontend', 'development', 'mobile', 'UX design', 'user testing'],
         description: "A mobile app for UCI students to easily sell, give away, and purchase items.",
-        url: '/'
+        url: '/projects/antmarket'
     },
     {   
         title: 'Novel Widget: Five-Point Tracker',
