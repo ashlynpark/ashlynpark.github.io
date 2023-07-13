@@ -16,7 +16,7 @@ const Navvy = (props:{selected:string}) => {
   const build = props.selected === 'build';
 
   return (
-    <nav style={{paddingBottom: '60px'}}>
+    <nav style={{height: '70px', paddingBottom: '-30px'}}>
       
       <Navbar expand='md' style={{paddingTop: 0, paddingBottom: 0, width: '100%', position: 'fixed'}}>
         <Container fluid className={styles.prettynav}>

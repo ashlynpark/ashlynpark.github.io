@@ -484,6 +484,23 @@
   animation: textglow 2s ease-in-out infinite alternate;
 }
 
+.subheading3{
+  font-family: 'Silkscreen Reg';
+  font-size: 1.6em;
+  color: #f5f3ec;
+  text-align: center;
+  animation: textglow 2s ease-in-out infinite alternate;
+}
+
+
+.subheading4{
+  font-family: 'Silkscreen Reg';
+  font-size: 1.3em;
+  color: #f5ecee;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(250, 249, 238, 0.9);
+}
+
 .subheadingcontainer{
   display: flex;
   flex: 2;
@@ -611,6 +628,28 @@
 }
 
 
+
+.pageletter3{
+  font-family: 'Alex Brush';
+  font-size: 6em;
+  color: rgb(247, 248, 240);
+  text-shadow: 0 0 20px rgba(250, 249, 238, 0.9);
+  text-align: center;
+  margin-top: 0.2em;
+}
+
+.pagetitle3{
+  font-family: 'Maharlika';
+  font-size: 3em;
+  color: rgb(247, 248, 240);
+  text-align: center;
+  align-self: center;
+  text-shadow: 0 0 20px rgba(250, 249, 238, 0.9);
+  margin-left: 0.02em;
+  margin-top: 0.5em;
+}
+
+
 .abouttitlecontainer{
   background-image: url('/cloud-bg.png');
   background-size: cover;
@@ -623,6 +662,18 @@
   background-size: cover;
   background-position: center;
   animation: fadeIn 1.0s ease-in-out;
+}
+
+.buildtitlecontainer{
+  background-image: url('/pixelblossoms.png');
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  animation: fadeIn 1.0s ease-in-out;
+  display: flex;
+  flex-direction: column;
 }
 
 .projsubtitle{

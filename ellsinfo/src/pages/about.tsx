@@ -10,7 +10,7 @@ const About = () => {
     return(
         <>
             <Navvy selected='about'/>
-            <div className={styles.main} style={{backgroundColor: '#615a75'}}>
+            <div className={styles.main} style={{backgroundColor: '#615a75', marginTop: '-8px'}}>
                 <Container fluid className={styles.abouttitlecontainer}>
                     <div className={styles.titlecontainerdark}>
                         <h1 className={styles.pageletter}>A</h1>

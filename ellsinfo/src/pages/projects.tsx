@@ -148,9 +148,9 @@ const Projects = () => {
       setMenuOpen(!menuOpen);
     };
     return(
-        <>
+        <div style={{overflow: 'auto',}}>
             <Navvy selected='projects'/>
-            <div className={styles.main} style={{backgroundColor: '#283b35', display: 'block' }}>
+            <div className={styles.main} style={{backgroundColor: '#283b35', display: 'block', overflow: 'auto', marginTop: '-8px'}}>
                 <Container fluid className={styles.projectstitlecontainer}>
                     <div className={styles.titlecontainerdark}>
                         <h1 className={styles.pageletter2}>P</h1>
@@ -167,9 +167,9 @@ const Projects = () => {
                         </p>
                     </div>
                     <Row>
-                        <Col xs={2} sm={3}  md={2}>
+                        <Col xs={2} sm={3}  md={2} style={{height: '5em', top: '50px',}}>
                             {/* FILTERING MENU */}
-                                <div style={{display: 'flex',justifyContent: 'center', alignSelf: 'center'}}>
+                                <div className='sticky-top'  style={{display: 'flex',justifyContent: 'center', alignSelf: 'center',  top: '50px'}}>
                                     {/* Menu toggle button */}
                                     <button onClick={() => setMenuOpen(!menuOpen)} style={{display: windowWidth > threshold || typeof window === 'undefined' ? 'none' : 'block'}} className={styles.projmenubutton}>
                                             {menuOpen ? <FontAwesomeIcon icon={faX} style={{height: 'auto', width: '1em', color: '#416154', alignSelf: 'center'}}/> : <FontAwesomeIcon icon={faBarsStaggered} style={{height: 'auto', width: '1.5em', color: '#416154', alignSelf: 'center'}}/> }
@@ -201,7 +201,7 @@ const Projects = () => {
                 </Container>
             </div>
 
-        </>
+        </div>
     )
 }
 
