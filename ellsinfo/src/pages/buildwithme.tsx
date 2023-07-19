@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const buildy ={
     section: {
-        backgroundColor: 'rgba(247, 248, 240, 0.5)',
+        backgroundColor: 'rgba(247, 248, 240, 0.7)',
         padding: '3%',
         alignSelf: 'center',
         justifySelf: 'center',
@@ -37,7 +37,7 @@ const BuildWithMe = () => {
                     <h2 className={styles.subheading3}>{"Your digital brand, one pixel at a time"}</h2>
                     <h3 className={styles.subheading4}>{"fully customized web and mobile solutions"}</h3>
                     <div style={buildy.section}>
-                        <p style={buildy.sectionText}>djfh sdkjflh d daslfjhd dafha adlksjfh adjfha </p>
+                        <p style={buildy.sectionText}>{"In the digital era, having an online presence is crucial for your brand or small business. "} </p>
                     </div>
                 </Container>
             
